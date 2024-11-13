@@ -1,10 +1,8 @@
 {
-  "name": "rehype-stagger",
-  "version": "3.0.3",
+  "name": "rehype-attr2",
+  "version": "0.0.2",
   "description": "New syntax to add attributes to Markdown.",
-  "homepage": "https://jaywcjlove.github.io/rehype-attr",
-  "funding": "https://jaywcjlove.github.io/#/sponsor",
-  "author": "Kenny Wong <wowohoo@qq.com>",
+  "author": "ByeonggakYu <qudrkr0815@gmail.com>",
   "license": "MIT",
   "sideEffects": false,
   "type": "module",
@@ -21,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jaywcjlove/rehype-attr"
+    "url": "https://github.com/gaki2/rehype-attr"
   },
   "files": [
     "src",
