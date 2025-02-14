@@ -1,21 +1,15 @@
 {
   "compilerOptions": {
-    "target": "ES2022",
-    "module": "es2015",
-    "moduleResolution": "bundler",
-    "sourceMap": false,
-    "declaration": true,
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitThis": true,
-    "strictBindCallApply": true,
-    "strictNullChecks": true,
-    "strictPropertyInitialization": true,
-    "stripInternal": true,
-    "skipLibCheck": true,
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "node",
     "esModuleInterop": true,
-    "noImplicitAny": true,
-    "outDir": "lib",
-    "baseUrl": "."
+    "strict": false,
+    "skipLibCheck": true,
+    "declaration": true,
+    "outDir": "./lib",
+    "rootDir": "./src"
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "lib"]
 }
